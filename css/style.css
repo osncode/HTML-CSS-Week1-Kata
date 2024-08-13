@@ -7,7 +7,7 @@ body{
     line-height: 1.5;
 }
 
-.img{
+img{
     display: block;
 }
 
@@ -16,23 +16,23 @@ body{
     margin: 0 auto;
 }
 
-.main{
-    display: flex;
-    justify-content: space-between;
-}
-
-.news{
-    width: 288px;
-}
-
 .footer{
     text-align: center;
     padding: 3rem 0;
 }
 
+/* utilities */
+.d-f{
+    display: flex;
+}
+
 .fl{
-    line-height: 1.2;
     font-size: 20px;
+    line-height: 1.2;
+}
+
+.ml-20{
+    margin-left: 20px;
 }
 
 .mb-24{
